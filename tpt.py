@@ -14,9 +14,11 @@ bars = plt.bar(protocol, tpt,
         width = 0.4)
 
 for x in range(4):
-    bars[x].set_color('blue')
-    bars[x+1].set_color('orange')
-    bars[x+2].set_color('green')
+    bars[3*x].set_color('blue')
+    bars[3*x+1].set_color('orange')
+    bars[3*x+2].set_color('green')
+
+plt.xticks(rotation=75)
 
  
 plt.xlabel("Systems (RMW Ratio)")
