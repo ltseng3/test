@@ -11,7 +11,7 @@ fig = plt.figure(figsize = (10, 5))
  
 # creating the bar plot
 bars = plt.bar(protocol, tpt, 
-        width = 1)
+        width = 0.8)
 
 for x in range(4):
     bars[3*x].set_color('blue')
@@ -28,6 +28,6 @@ plt.ylabel("Throughput (Ops/sec)")
 plt.savefig("test3-1.png", bbox_inches="tight")
 
 
-bars = plt.bar(protocol, tpt, 
-        width = 1.5)
-plt.savefig("test3-1.5.png", bbox_inches="tight")
+#bars = plt.bar(protocol, tpt, 
+#        width = 1.5)
+#plt.savefig("test3-1.5.png", bbox_inches="tight")
