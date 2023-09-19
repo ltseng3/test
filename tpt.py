@@ -11,18 +11,23 @@ fig = plt.figure(figsize = (10, 5))
  
 # creating the bar plot
 bars = plt.bar(protocol, tpt, 
-        width = 0.4)
+        width = 1)
 
 for x in range(4):
     bars[3*x].set_color('blue')
     bars[3*x+1].set_color('orange')
     bars[3*x+2].set_color('green')
 
-plt.xticks(rotation=75)
+plt.xticks(rotation=45)
 
  
 plt.xlabel("Systems (RMW Ratio)")
 plt.ylabel("Throughput (Ops/sec)")
 #plt.title("Students enrolled in different courses")
 #plt.show()
-plt.savefig("test3.png", bbox_inches="tight")
+plt.savefig("test3-1.png", bbox_inches="tight")
+
+
+bars = plt.bar(protocol, tpt, 
+        width = 1.5)
+plt.savefig("test3-1.5.png", bbox_inches="tight")
