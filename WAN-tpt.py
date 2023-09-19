@@ -26,7 +26,7 @@ plt.xlabel("Systems")
 plt.ylabel("Throughput (Ops/sec)")
 #plt.title("Students enrolled in different courses")
 #plt.show()
-plt.savefig("WAN-test.png", bbox_inches="tight")
+plt.savefig("WAN.png", bbox_inches="tight")
 
 
 #bars = plt.bar(protocol, tpt, 
