@@ -7,7 +7,7 @@ data = {'PQR (0.125)': 21632.61, 'Pineapple (0.125)': 30760.99, 'EPaxos (0.125)'
 protocol = list(data.keys())
 tpt = list(data.values())
   
-fig = plt.figure(figsize = (15, 5))
+fig = plt.figure(figsize = (15, 3.5))
  
 # creating the bar plot
 bars = plt.bar(protocol, tpt, 
