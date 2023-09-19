@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
   
 # creating the dataset
 #data = {'PQR (0.125)': 21632.61, 'Pineapple (0.125)': 30760.99, 'EPaxos (0.125)': 14142.10, 'PQR (0.25)': 20909.21, 'Pineapple (0.25)':  25733.42, 'EPaxos (0.25)': 14721.87, 'PQR (0.5)': 20031.99, 'Pineapple (0.5)': 22391.78, 'EPaxos (0.5)': 13455.03, 'PQR (1.0)': 18397.87, 'Pineapple (1.0)': 18304.74, 'EPaxos (1.0)': 14657.05}
-data = {'PQR': 12243.24, 'Pineapple': 18578.16, 'Gryff': 14830.22}
+data = {'PQR': 12243.24, 'Pineapple': 18578.16, 'EPaxos': 14830.22}
 protocol = list(data.keys())
 tpt = list(data.values())
   
-fig = plt.figure(figsize = (15, 2))
+fig = plt.figure(figsize = (10, 3))
  
 # creating the bar plot
 bars = plt.bar(protocol, tpt, 
