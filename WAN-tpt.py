@@ -19,7 +19,7 @@ for x in range(1):
     bars[3*x+1].set_color('orange')
     bars[3*x+2].set_color('green')
 
-plt.xticks(rotation=25)
+#plt.xticks(rotation=25)
 
  
 plt.xlabel("Systems")
