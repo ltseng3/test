@@ -7,7 +7,7 @@ data = {'PQR (0.125)': 21632.61, 'Pineapple (0.125)': 30760.99, 'EPaxos (0.125)'
 protocol = list(data.keys())
 tpt = list(data.values())
   
-fig = plt.figure(figsize = (10, 5))
+fig = plt.figure(figsize = (15, 5))
  
 # creating the bar plot
 bars = plt.bar(protocol, tpt, 
@@ -25,7 +25,7 @@ plt.xlabel("Systems (RMW Ratio)")
 plt.ylabel("Throughput (Ops/sec)")
 #plt.title("Students enrolled in different courses")
 #plt.show()
-plt.savefig("test3-1.png", bbox_inches="tight")
+plt.savefig("test-final.png", bbox_inches="tight")
 
 
 #bars = plt.bar(protocol, tpt, 
