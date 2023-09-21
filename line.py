@@ -21,6 +21,8 @@ ax.plot(x1,y1, color='orange', linestyle="solid", label="Pineapple")
 ax.set_ylabel("Latency (ms)")
 ax.set_xlabel("Throughput (Ops/sec)")
 
+ax.set_xlim(left=0)
+
 ax.legend(('Gryff','Pineapple'))
 
 fig.savefig("latency-tput.png", bbox_inches="tight")
