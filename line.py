@@ -11,8 +11,8 @@ x1 = [8033, 17373, 20270, 20657, 21435, 21813, 22263, 22377, 22680]
 
 fig, ax = plt.subplots()
 
-fig.set_figheight(10)
-fig.set_figwidth(3)
+fig.set_figheight(3)
+fig.set_figwidth(10)
 
 
 ax.plot(x, y, color='green', linestyle="dashdot", label="Gryff")
