@@ -19,9 +19,11 @@ ax.plot(x, y, color='green', linestyle="dashdot", label="Gryff")
 ax.plot(x1,y1, color='orange', linestyle="solid", label="Pineapple")
 
 ax.set_ylabel("Latency (ms)")
-ax.set_xlabel("Throughput (Ops/sec)")
 
 ax.set_xlim(left=0)
+ax.set_xlabel("Throughput (Ops/sec)")
+
+#ax.set_xlim(left=0)
 
 ax.legend(('Gryff','Pineapple'))
 
