@@ -9,8 +9,8 @@ x1 = [8033, 17373, 20270, 20657, 21435, 21813, 22263, 22377, 22680]
 
 fig = plt.figure(figsize = (10, 3))
 
-plt.plot(x, y, color='green')
-plt.plot(x1,y1, color='orange')
+plt.plot(x, y, color='green', linestyle="dashdot", label="Gryff")
+plt.plot(x1,y1, color='orange', linestyle="solid", label="Pineapple")
 
 plt.xlabel("Latency (ms)")
 plt.ylabel("Throughput (Ops/sec)")
