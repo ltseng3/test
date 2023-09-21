@@ -18,9 +18,9 @@ fig.set_figwidth(3)
 ax.plot(x, y, color='green', linestyle="dashdot", label="Gryff")
 ax.plot(x1,y1, color='orange', linestyle="solid", label="Pineapple")
 
-ax.set_xlabel("Latency (ms)")
-ax.set_ylabel("Throughput (Ops/sec)")
+ax.set_ylabel("Latency (ms)")
+ax.set_xlabel("Throughput (Ops/sec)")
 
-ax.legend()
+ax.legend(('Gryff','Pineapple'))
 
 fig.savefig("latency-tput.png", bbox_inches="tight")
